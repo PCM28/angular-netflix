@@ -1,0 +1,7 @@
+<h2>{{hero.title}}</h2>
+<ul class ="top-poster">
+    <li *ngFor="let top of hero.image"> 
+        <h1>{{top.alt}}</h1>
+        <img src="{{top.src}}" alt="{{top.alt}}"/>
+    </li>
+</ul>
